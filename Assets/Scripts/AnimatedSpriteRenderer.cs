@@ -39,7 +39,7 @@ public class AnimatedSpriteRenderer : MonoBehaviour
     {
         animationFrame++;
 
-        if (loop && animationFrame >= sprites.Length)
+        if (loop  && animationFrame >= sprites.Length)
         {
             animationFrame = 0;
         }
