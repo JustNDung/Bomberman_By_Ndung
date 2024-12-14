@@ -703,6 +703,8 @@ MonoBehaviour:
   explorationMask:
     serializedVersion: 2
     m_Bits: 64
+  destructibleTiles: {fileID: 1254265095}
+  destructiblePrefab: {fileID: 6239992373119012587, guid: 999f9523afb86454d8ad7df547db9fd9, type: 3}
 --- !u!1 &1095335337
 GameObject:
   m_ObjectHideFlags: 0
