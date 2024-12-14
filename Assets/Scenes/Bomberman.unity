@@ -129,6 +129,7 @@ GameObject:
   m_Component:
   - component: {fileID: 57061626}
   - component: {fileID: 57061627}
+  - component: {fileID: 57061628}
   m_Layer: 0
   m_Name: Left
   m_TagString: Untagged
@@ -206,6 +207,27 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &57061628
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 57061625}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 75e541b3b7906cc49ac1f9f0c3497a8a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  idleSprite: {fileID: -1229328897, guid: 4a55237ecf50f4b47bf53fab5f64d4dd, type: 3}
+  sprites:
+  - {fileID: -1229328897, guid: 4a55237ecf50f4b47bf53fab5f64d4dd, type: 3}
+  - {fileID: -1334362665, guid: 4a55237ecf50f4b47bf53fab5f64d4dd, type: 3}
+  - {fileID: 734698550, guid: 4a55237ecf50f4b47bf53fab5f64d4dd, type: 3}
+  - {fileID: -1209679299, guid: 4a55237ecf50f4b47bf53fab5f64d4dd, type: 3}
+  animationTime: 0.1666667
+  loop: 1
+  idle: 1
 --- !u!1 &198433189
 GameObject:
   m_ObjectHideFlags: 0
@@ -216,6 +238,7 @@ GameObject:
   m_Component:
   - component: {fileID: 198433190}
   - component: {fileID: 198433191}
+  - component: {fileID: 198433192}
   m_Layer: 0
   m_Name: Up
   m_TagString: Untagged
@@ -293,6 +316,27 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &198433192
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 198433189}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 75e541b3b7906cc49ac1f9f0c3497a8a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  idleSprite: {fileID: -7679691229697230091, guid: 4a55237ecf50f4b47bf53fab5f64d4dd, type: 3}
+  sprites:
+  - {fileID: -7679691229697230091, guid: 4a55237ecf50f4b47bf53fab5f64d4dd, type: 3}
+  - {fileID: -4838763863378666313, guid: 4a55237ecf50f4b47bf53fab5f64d4dd, type: 3}
+  - {fileID: 5742505401775786626, guid: 4a55237ecf50f4b47bf53fab5f64d4dd, type: 3}
+  - {fileID: -2236306000557871359, guid: 4a55237ecf50f4b47bf53fab5f64d4dd, type: 3}
+  animationTime: 0.1666667
+  loop: 1
+  idle: 1
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -632,6 +676,10 @@ MonoBehaviour:
   moveDown: 115
   moveLeft: 97
   moveRight: 100
+  spriteRendererUp: {fileID: 198433192}
+  spriteRendererDown: {fileID: 1854886938}
+  spriteRendererLeft: {fileID: 57061628}
+  spriteRendererRight: {fileID: 1359958773}
 --- !u!1 &1095335337
 GameObject:
   m_ObjectHideFlags: 0
@@ -1684,6 +1732,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1359958771}
   - component: {fileID: 1359958772}
+  - component: {fileID: 1359958773}
   m_Layer: 0
   m_Name: Right
   m_TagString: Untagged
@@ -1761,6 +1810,27 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1359958773
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1359958770}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 75e541b3b7906cc49ac1f9f0c3497a8a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  idleSprite: {fileID: -882945653, guid: 4a55237ecf50f4b47bf53fab5f64d4dd, type: 3}
+  sprites:
+  - {fileID: -882945653, guid: 4a55237ecf50f4b47bf53fab5f64d4dd, type: 3}
+  - {fileID: 980891554, guid: 4a55237ecf50f4b47bf53fab5f64d4dd, type: 3}
+  - {fileID: 438856778, guid: 4a55237ecf50f4b47bf53fab5f64d4dd, type: 3}
+  - {fileID: -475789427, guid: 4a55237ecf50f4b47bf53fab5f64d4dd, type: 3}
+  animationTime: 0.1666667
+  loop: 1
+  idle: 1
 --- !u!1 &1593400224
 GameObject:
   m_ObjectHideFlags: 0
@@ -3915,6 +3985,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1854886936}
   - component: {fileID: 1854886937}
+  - component: {fileID: 1854886938}
   m_Layer: 0
   m_Name: Down
   m_TagString: Untagged
@@ -3992,6 +4063,27 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1854886938
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1854886935}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 75e541b3b7906cc49ac1f9f0c3497a8a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  idleSprite: {fileID: 457474356617978424, guid: 4a55237ecf50f4b47bf53fab5f64d4dd, type: 3}
+  sprites:
+  - {fileID: 457474356617978424, guid: 4a55237ecf50f4b47bf53fab5f64d4dd, type: 3}
+  - {fileID: -1955984481447874758, guid: 4a55237ecf50f4b47bf53fab5f64d4dd, type: 3}
+  - {fileID: -2311726692851788914, guid: 4a55237ecf50f4b47bf53fab5f64d4dd, type: 3}
+  - {fileID: 530038992663894971, guid: 4a55237ecf50f4b47bf53fab5f64d4dd, type: 3}
+  animationTime: 0.1666667
+  loop: 1
+  idle: 1
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
