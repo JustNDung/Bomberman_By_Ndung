@@ -66,6 +66,7 @@ public class MovementController : MonoBehaviour
         
         activeSpriteRenderer = spriteRenderer;
         activeSpriteRenderer.idle = direction == Vector2.zero;
+        
     }
     
     

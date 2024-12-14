@@ -570,6 +570,7 @@ GameObject:
   - component: {fileID: 828857577}
   - component: {fileID: 828857576}
   - component: {fileID: 828857579}
+  - component: {fileID: 828857580}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -649,7 +650,7 @@ Transform:
   m_GameObject: {fileID: 828857575}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.5, y: 4.5, z: 0}
+  m_LocalPosition: {x: -6, y: 5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -680,6 +681,22 @@ MonoBehaviour:
   spriteRendererDown: {fileID: 1854886938}
   spriteRendererLeft: {fileID: 57061628}
   spriteRendererRight: {fileID: 1359958773}
+--- !u!114 &828857580
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 828857575}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 138f051cb6c7b0140b89a233b4a726d4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bombPrefab: {fileID: 4519049447614316024, guid: 3efb5d812c620db479ab2fa6f2deda0d, type: 3}
+  inputKey: 32
+  bombFuseTime: 3
+  bombAmount: 1
 --- !u!1 &1095335337
 GameObject:
   m_ObjectHideFlags: 0
@@ -754,7 +771,7 @@ Transform:
   m_GameObject: {fileID: 1254265091}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -0.5, y: 0.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1859,7 +1876,7 @@ Transform:
   m_GameObject: {fileID: 1593400224}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -0.5, y: 0.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
